@@ -198,3 +198,44 @@ h2::after {
 }
 
 /* End of about section */
+
+/* Who are we section */
+.who-pic {
+  height: 200px;
+  width: 100%;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.who-link:link,
+.who-pic:visited{
+  border: none;
+}
+
+.icon-small {
+  margin-right: 10px;
+  color: #f87060;
+}
+
+.who-features {
+  margin-bottom: 10px;
+  font-size: 80%;
+  width: 90%;
+  margin-left: 5%;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+  color: #f87060;
+  transition: border-bottom 0.2s, color 0.2s;
+}
+
+a:hover,
+a:active {
+  border-bottom: 2px solid #f87060;
+  color : #555;
+}
+
+
+/* End of who are we section*/
